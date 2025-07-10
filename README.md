@@ -27,9 +27,12 @@ This is a simple **To-Do list application** built using **Kotlin**, **RecyclerVi
 ---
 
 ## 📸 Screenshots
+### Home Screen
+<img src="screenshots/home.png" alt="Home Screen" width="300"/>
 
-![WhatsApp Image 2025-07-10 at 3 46 18 PM](https://github.com/user-attachments/assets/771f58e0-f03b-4cad-8b4e-1f57c4597063)
-![WhatsApp Image 2025-07-10 at 3 46 30 PM](https://github.com/user-attachments/assets/efbb3fda-c9e1-4956-b39b-b2ec08af6906)
+### Task Editing
+<img src="screenshots/edit.png" alt="Edit Task" width="300"/>
+
 
 ---
 

@@ -1,4 +1,4 @@
-# ✅ ToDo App – Android (Kotlin)
+#  ToDo App – Android (Kotlin)
 
 This is a simple **To-Do list application** built using **Kotlin**, **RecyclerView**, and **SQLite** for local data storage. It features task creation, deletion, and status updates with swipe gestures and a splash screen.
 

@@ -11,6 +11,7 @@ import android.view.ViewGroup
 import android.view.WindowManager
 import android.widget.Button
 import android.widget.EditText
+import android.widget.Toast
 import androidx.core.app.DialogCompat
 import androidx.core.content.ContextCompat
 import com.example.todo.Model.ToDoModel
@@ -101,9 +102,11 @@ class AddNewTask : BottomSheetDialogFragment() {
 
         newTaskSaveButton.setOnClickListener {
             val text = newTaskText.text.toString()
-            if(isUpdate){
+            if (text.isEmpty()) {
+                Toast.makeText(context, "Task cannot be empty", Toast.LENGTH_SHORT).show()
+            }
+            else if(isUpdate){
                 db.updateTasks(bundle!!.getInt("id"),text)
-
             }
             else{
                 val task = ToDoModel()

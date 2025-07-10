@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Todo" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@android:color/holo_green_dark</item>
+        <item name="colorAccent">@android:color/white</item>
+    </style>
+
+    <style name="DialogStyle" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+    </style>
+    <!-- Base application theme -->
+    <style name="Theme.YourApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- No splash attributes here -->
+    </style>
+    <!-- res/values/styles.xml -->
+    <style name="SplashTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@drawable/logo</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    <style name="popup" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="backgroundColor">@android:color/white</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="Theme.Todo" parent="Base.Theme.Todo" />
+</resources>

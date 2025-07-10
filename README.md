@@ -28,10 +28,10 @@ This is a simple **To-Do list application** built using **Kotlin**, **RecyclerVi
 
 ## 📸 Screenshots
 ### Home Screen
-<img src="screenshots/home.png" alt="Home Screen" width="300"/>
+<img src="sampledata/s1.jpeg" alt="Home Screen" width="300"/>
 
 ### Task Editing
-<img src="screenshots/edit.png" alt="Edit Task" width="300"/>
+<img src="sampledata/s2.jpeg" alt="Edit Task" width="300"/>
 
 
 ---
